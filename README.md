@@ -126,7 +126,7 @@ Products are seeded from The Chauka's actual menu including:
 - Mathri varieties (₹320–550/kg)
 - Namkeen, chivda, moongfali
 - Sweets & ladoo (₹450–1200/kg)
-- Samosa, kachori (₹20/piece)
+- Samosa (₹100/piece), kachori (₹500/piece)
 - Festival hampers & party packs
 
 ## Contact (Brand)

@@ -62,8 +62,8 @@ const menuItems: SeedProduct[] = [
   // Per piece
   { name: "Dal Pakwan", category: "samosa", price: 15, unit: "piece", minQty: 4 },
   { name: "Katori Chaat", category: "samosa", price: 15, unit: "piece" },
-  { name: "Kachori", category: "kachori", price: 20, unit: "piece", isBestSeller: true },
-  { name: "Samosa", category: "samosa", price: 20, unit: "piece", isBestSeller: true, spiceLevel: "medium" },
+  { name: "Kachori", category: "kachori", price: 500, unit: "piece", isBestSeller: true },
+  { name: "Samosa", category: "samosa", price: 100, unit: "piece", isBestSeller: true, spiceLevel: "medium" },
   // Festival & party packs
   { name: "Diwali Premium Hamper", category: "festival", price: 2499, unit: "pack", isBestSeller: true },
   { name: "Holi Snack Box", category: "festival", price: 1499, unit: "pack" },
