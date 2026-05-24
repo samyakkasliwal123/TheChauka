@@ -1,0 +1,26 @@
+{
+  "name": "The Chauka - Authentic Homemade Snacks",
+  "short_name": "The Chauka",
+  "description": "Grandmother's recipes from Jaipur. Mathri, samosa, kachori & more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F0E3",
+  "theme_color": "#6B1E2E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "shopping"],
+  "lang": "en-IN"
+}

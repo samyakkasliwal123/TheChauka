@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 38 45% 94%;
+    --foreground: 20 45% 15%;
+    --card: 38 45% 96%;
+    --card-foreground: 20 45% 15%;
+    --primary: 345 55% 27%;
+    --primary-foreground: 38 45% 94%;
+    --secondary: 43 75% 52%;
+    --secondary-foreground: 20 45% 15%;
+    --muted: 30 20% 85%;
+    --muted-foreground: 20 25% 40%;
+    --accent: 28 72% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 30 20% 80%;
+    --input: 30 20% 85%;
+    --ring: 345 55% 27%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 20 45% 8%;
+    --foreground: 38 45% 94%;
+    --card: 20 40% 12%;
+    --card-foreground: 38 45% 94%;
+    --primary: 28 72% 50%;
+    --primary-foreground: 20 45% 8%;
+    --secondary: 43 75% 52%;
+    --secondary-foreground: 20 45% 8%;
+    --muted: 20 30% 18%;
+    --muted-foreground: 30 20% 65%;
+    --accent: 345 55% 35%;
+    --accent-foreground: 38 45% 94%;
+    --border: 20 30% 20%;
+    --input: 20 30% 18%;
+    --ring: 28 72% 50%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-cream text-spice-brown antialiased dark:bg-spice-brown dark:text-cream;
+    background-image: url("/paper-texture.svg");
+    background-size: 60px 60px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .heritage-border {
+    @apply border-2 border-double border-maroon/20;
+  }
+
+  .steam-particle {
+    @apply absolute rounded-full bg-white/30 blur-md animate-steam;
+  }
+}
